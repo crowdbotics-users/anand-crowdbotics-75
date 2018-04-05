@@ -6,6 +6,7 @@ from django.shortcuts import render
 
 def home(request):
     packages = [
+	{'name':'admin-timeline', 'url': 'http://pypi.python.org/pypi/admin-timeline/0.5'},
     ]
     context = {
         'title': 'anand-crowdbotics-75',
