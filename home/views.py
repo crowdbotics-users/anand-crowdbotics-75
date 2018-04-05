@@ -6,6 +6,7 @@ from django.shortcuts import render
 
 def home(request):
     packages = [
+	{'name':'aa_airtable', 'url': 'http://pypi.python.org/pypi/aa_airtable/0.2'},
 	{'name':'adjacent', 'url': 'http://pypi.python.org/pypi/adjacent/1.0.0'},
 	{'name':'admin-timeline', 'url': 'http://pypi.python.org/pypi/admin-timeline/0.5'},
     ]
